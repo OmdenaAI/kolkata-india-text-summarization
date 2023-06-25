@@ -11,8 +11,9 @@ Note : Please Follow the below guidelines to create task folders
 
 | Task No| Task Name | Details |
 |-|-|-|
-|1|         |         |
-|2|         |         |
-|3|         |         |
-|4|         |         |
-|5|Political Rationale| The entire basis of the political rationale is to create a document upon which we could use as a basis to know if the direction of our current application is viable or not|
+|1|task-1-exploratory-data-analysis|Some EDA plotting on the data|
+|2|task-2-data-pre-processing|Preprocessing Notebook or Data|
+|3|task-3-model-development|Code for Building the model|
+|4|task-4-model-evaluation|Evaluate the model's Perfomence|
+|5|task-5-model-deployment|Code of Model Deploy in Production|
+
