@@ -1,0 +1,39 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Summarization</title>
+</head>
+<body>
+    <h1>Text Summarization</h1>
+    
+    <form id="summarize-form">
+        <label for="input-text">Input Text:</label><br>
+        <textarea id="input-text" name="input_text" rows="10" cols="80" required></textarea><br><br>
+        <button type="submit">Summarize</button>
+    </form>
+    
+    <h2>Summary:</h2>
+    <p id="summary"></p>
+    
+    <script>
+        document.getElementById('summarize-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const inputText = document.getElementById('input-text').value;
+            fetch('/summarize', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ input_text: inputText })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('summary').textContent = data.summary;
+            });
+        });
+    </script>
+</body>
+</html>
