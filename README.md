@@ -18,7 +18,7 @@
     - Content Personalization: Text summarization algorithms can be used to personalize content recommendations based on user preferences within the Daily Mail dataset. By summarizing articles and understanding user preferences, it becomes possible to deliver tailored summaries or recommendations that match individual interests. This enhances the user experience by providing relevant and concise information.
 
 
-## Project Presentation [Click here]https://drive.google.com/file/d/1O_rnvkV0KKRwxc6_j9QgIHYCc_J3oOZI/view?usp=sharing
+## Project Presentation https://drive.google.com/file/d/1O_rnvkV0KKRwxc6_j9QgIHYCc_J3oOZI/view?usp=sharing 
 
 ## Contribution Guidelines
 - Have a Look at the [project structure](#project-structure) and [folder overview](#folder-overview) below to understand where to store/upload your contribution
